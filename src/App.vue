@@ -3,9 +3,14 @@ import About from './components/About.vue'
 import Contact from './components/Contact.vue';
 import Education from './components/Education.vue';
 import Header from './components/Header.vue'
-import Projects from './components/Projects.vue';
 import Skills from './components/Skills.vue';
 import Footer from './components/Footer.vue';
+import data from './data.json'
+import ProjectList from './components/ProjectList.vue';
+console.log(data);
+const projects = data.projects
+console.log(projects);
+
 </script>
 
 <template>
@@ -16,7 +21,7 @@ import Footer from './components/Footer.vue';
           <Header />
           <main class="flex flex-col gap-12 md:gap-20 mt-10">
             <About />
-            <Projects />
+            <ProjectList :projects="projects" />
             <Education />
             <Skills />
             <Contact />

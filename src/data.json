@@ -1,0 +1,110 @@
+{
+  "profile": {
+    "name": "Bruno",
+    "label": "Desarrollador Full Stack Java & Analista de Sistemas",
+    "email": "tucorreo@ejemplo.com",
+    "location": "Tu Ciudad, Argentina",
+    "summary": "Desarrollador Web Full Stack Java y Analista de Sistemas en formación. Apasionado por la arquitectura de software y el desarrollo de soluciones escalables. Cuento con experiencia práctica construyendo aplicaciones completas desde cero, implementando seguridad con Spring Security y JWT, y consumiendo APIs con Vue.js y Axios. Busco mi primera experiencia profesional para aportar mi capacidad analítica y dominio de tecnologías modernas.",
+    "social_media": {
+      "linkedin": "https://linkedin.com/in/tu-usuario",
+      "github": "https://github.com/tu-usuario"
+    }
+  },
+  "education": [
+    {
+      "institution": "C.E.P 62 Superior",
+      "area": "Analista de Sistemas",
+      "startDate": "2020",
+      "endDate": "2024",
+      "description": "Formación superior en análisis, diseño e implementación de sistemas informáticos."
+    },
+    {
+      "institution": "Mindhub",
+      "area": "Desarrollador Web Java",
+      "startDate": "Julio 2023",
+      "endDate": "Octubre 2023",
+      "description": "Bootcamp intensivo enfocado en tecnologías Java, Spring Boot y desarrollo web full stack."
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "Vue.js",
+      "Axios",
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+    "backend": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "JWT (JSON Web Tokens)",
+      "OAuth2",
+      "Spring Cloud (Microservicios)"
+    ],
+    "database": ["PostgreSQL", "MySQL"],
+    "languages": [
+      {
+        "language": "Español",
+        "fluency": "Nativo"
+      },
+      {
+        "language": "Inglés",
+        "fluency": "A1 - Lectura técnica y documentación"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "HomeBanking",
+      "role": "Full-Stack Developer",
+      "type": "Proyecto Personal",
+      "date": "Septiembre 2023",
+      "description": "Sistema bancario completo que permite gestión de cuentas, transferencias y préstamos. Implementación de seguridad robusta para protección de datos de usuarios y transacciones.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "PostgreSQL",
+        "Vue.js",
+        "Axios",
+        "Bootstrap"
+      ],
+      "repo_url": "https://github.com/tu-usuario/homebanking",
+      "demo_url": ""
+    },
+    {
+      "name": "MattOffe",
+      "role": "Back-End Developer",
+      "type": "Proyecto Grupal",
+      "date": "Septiembre 2023",
+      "description": "E-commerce de productos de mate y café. Desarrollo de lógica de negocio backend, gestión de tickets y persistencia de datos relacionales.",
+      "technologies": ["Java", "Spring Boot", "PostgreSQL", "Spring Data JPA"],
+      "repo_url": "https://github.com/tu-usuario/mattoffe",
+      "demo_url": ""
+    },
+    {
+      "name": "DoLittle PetShop",
+      "role": "Front-End Developer",
+      "type": "Proyecto Grupal",
+      "date": "Agosto 2023",
+      "description": "SPA (Single Page Application) para veterinaria. Consumo de APIs para renderizado dinámico de productos y filtros.",
+      "technologies": ["Vue.js", "JavaScript", "Axios", "Tailwind CSS", "HTML"],
+      "repo_url": "https://github.com/tu-usuario/dolittle",
+      "demo_url": ""
+    },
+    {
+      "name": "Amazing Events",
+      "role": "Front-End Developer",
+      "type": "Proyecto Académico",
+      "date": "Julio 2023",
+      "description": "Plataforma de eventos con filtrado en tiempo real y diseño responsivo.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+      "repo_url": "https://github.com/tu-usuario/amazing-events",
+      "demo_url": ""
+    }
+  ]
+}

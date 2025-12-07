@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@fontsource-variable/inter':
-        specifier: ^5.2.8
+        specifier: 5.2.8
         version: 5.2.8
       '@tabler/icons-vue':
         specifier: ^3.35.0

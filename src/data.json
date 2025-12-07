@@ -2,8 +2,8 @@
   "profile": {
     "name": "Bruno",
     "label": "Desarrollador Full Stack Java & Analista de Sistemas",
-    "email": "tucorreo@ejemplo.com",
-    "location": "Tu Ciudad, Argentina",
+    "email": "fbrunomarcos@gmail.com",
+    "location": "Misiones, Argentina",
     "summary": "Desarrollador Web Full Stack Java y Analista de Sistemas en formación. Apasionado por la arquitectura de software y el desarrollo de soluciones escalables. Cuento con experiencia práctica construyendo aplicaciones completas desde cero, implementando seguridad con Spring Security y JWT, y consumiendo APIs con Vue.js y Axios. Busco mi primera experiencia profesional para aportar mi capacidad analítica y dominio de tecnologías modernas.",
     "social_media": {
       "linkedin": "https://linkedin.com/in/tu-usuario",
@@ -16,53 +16,104 @@
       "area": "Analista de Sistemas",
       "startDate": "2020",
       "endDate": "2024",
-      "description": "Formación superior en análisis, diseño e implementación de sistemas informáticos."
+      "description": "Formación superior en análisis, diseño e implementación de sistemas informáticos.",
+      "location": "Presencial -Misiones, Argentina"
+    },
+    {
+      "institution": "TodoCodeAcademy",
+      "area": "Microservicios con Spring Cloud",
+      "startDate": "Diciembre 2024",
+      "endDate": "Febrero 2025",
+      "description": "Curso intensiva enfocada en el desarrollo de microservicios con Spring Cloud.",
+      "location": "On Demand - Misiones, Argentina"
+    },
+    {
+      "institution": "TodoCodeAcademy",
+      "area": "Spring Security y JWT",
+      "startDate": "Junio 2025",
+      "endDate": "Diciembre 2025",
+      "description": "Curso intensiva enfocada en el desarrollo de seguridad con Spring Security y JWT.",
+      "location": "On Demand - Misiones, Argentina"
     },
     {
       "institution": "Mindhub",
       "area": "Desarrollador Web Java",
       "startDate": "Julio 2023",
       "endDate": "Octubre 2023",
-      "description": "Bootcamp intensivo enfocado en tecnologías Java, Spring Boot y desarrollo web full stack."
+      "description": "Bootcamp intensivo enfocado en tecnologías Java, Spring Boot y desarrollo web full stack.",
+      "location": "Remoto - Misiones, Argentina"
     }
   ],
-  "skills": {
-    "frontend": [
-      "HTML5",
-      "CSS3",
-      "JavaScript (ES6+)",
-      "Vue.js",
-      "Axios",
-      "Tailwind CSS",
-      "Bootstrap"
-    ],
-    "backend": [
-      "Java",
-      "Spring Boot",
-      "Spring Security",
-      "JWT (JSON Web Tokens)",
-      "OAuth2",
-      "Spring Cloud (Microservicios)"
-    ],
-    "database": ["PostgreSQL", "MySQL"],
-    "languages": [
-      {
-        "language": "Español",
-        "fluency": "Nativo"
-      },
-      {
-        "language": "Inglés",
-        "fluency": "A1 - Lectura técnica y documentación"
-      }
-    ]
-  },
+  "skills": [
+    {
+      "category": "Frontend Developer",
+      "skills": [
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "JavaScript" },
+        { "name": "Bootstrap" },
+        { "name": "Tailwind CSS" },
+        { "name": "Vue.js" },
+        { "name": "Java Swing" }
+      ]
+    },
+    {
+      "category": "Backend Developer",
+      "skills": [
+        { "name": "Java" },
+        { "name": "Spring Boot" },
+        { "name": "Spring Cloud" },
+        { "name": "Spring Security" },
+        { "name": "Json Web Token (JWT)" },
+        { "name": "OAuth 2.0" }
+      ]
+    },
+    {
+      "category": "Database",
+      "skills": [
+        { "name": "MySQL" },
+        { "name": "H2 Database" },
+        { "name": "PostgreSQL" }
+      ]
+    },
+    {
+      "category": "Analisis Funcional",
+      "skills": [
+        { "name": "Relevantamiento y Análisis de Requerimientos" },
+        { "name": "Diagramas de Flujo de Datos" },
+        { "name": "Modelo Entidad-Relación" },
+        { "name": "Lenguaje de Modelado Unificado" },
+        { "name": "Diagramas de Flujo de Datos de Diseño" }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "A1 - Lectura técnica y documentación"
+    }
+  ],
   "projects": [
+    {
+      "name": "MattOffe",
+      "role": "Back-End Developer",
+      "type": "Proyecto Grupal",
+      "date": "Septiembre 2023",
+      "description": "E-commerce de productos de mate y café. Desarrollo de lógica de negocio backend, gestión de tickets y persistencia de datos relacionales.",
+      "technologies": ["Java", "Spring Boot", "PostgreSQL", "Spring Data JPA"],
+      "repo_url": "https://github.com/tu-usuario/mattoffe",
+      "demo_url": ""
+    },
     {
       "name": "HomeBanking",
       "role": "Full-Stack Developer",
       "type": "Proyecto Personal",
       "date": "Septiembre 2023",
-      "description": "Sistema bancario completo que permite gestión de cuentas, transferencias y préstamos. Implementación de seguridad robusta para protección de datos de usuarios y transacciones.",
+      "description": "Sistema bancario completo que permite gestión de cuentas, transferencias y préstamos. Implementación de seguridad con Spring Security y JWT.",
       "technologies": [
         "Java",
         "Spring Boot",
@@ -74,16 +125,6 @@
         "Bootstrap"
       ],
       "repo_url": "https://github.com/tu-usuario/homebanking",
-      "demo_url": ""
-    },
-    {
-      "name": "MattOffe",
-      "role": "Back-End Developer",
-      "type": "Proyecto Grupal",
-      "date": "Septiembre 2023",
-      "description": "E-commerce de productos de mate y café. Desarrollo de lógica de negocio backend, gestión de tickets y persistencia de datos relacionales.",
-      "technologies": ["Java", "Spring Boot", "PostgreSQL", "Spring Data JPA"],
-      "repo_url": "https://github.com/tu-usuario/mattoffe",
       "demo_url": ""
     },
     {

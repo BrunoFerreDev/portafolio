@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { IconChevronsDown } from '@tabler/icons-vue';
 import { IconDownload } from '@tabler/icons-vue';
 
 </script>
@@ -25,10 +26,12 @@ import { IconDownload } from '@tabler/icons-vue';
                     </h2>
                 </div>
                 <div class="flex-wrap gap-3 flex">
-                    <button
+                    <a href="#projects"
                         class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-blue-500 hover:bg-blue-600 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
-                        <span class="truncate">Ver Proyectos</span>
-                    </button>
+                        <span class="truncate inline-flex">Ver Proyectos
+                            <IconChevronsDown />
+                        </span>
+                    </a>
                     <button
                         class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#222f49] hover:bg-[#2e3f61] transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
                         <span class="truncate inline-flex gap-2">

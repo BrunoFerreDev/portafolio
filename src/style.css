@@ -6,10 +6,13 @@
     --background-dark: #101622,
 }
 
+/* inter-latin-wght-normal */
+
 html {
   color-scheme: dark light;
   scroll-behavior: smooth;
-  font-family: "Inter Variable", sans-serif;
-
 }
 
+body {
+  font-family: "Inter Variable", sans-serif;
+}

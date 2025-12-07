@@ -1,15 +1,15 @@
 <script setup>
 import About from './components/About.vue'
 import Contact from './components/Contact.vue';
-import Education from './components/Education.vue';
+import EducationList from './components/EducationList.vue';
 import Header from './components/Header.vue'
 import Skills from './components/Skills.vue';
 import Footer from './components/Footer.vue';
 import data from './data.json'
 import ProjectList from './components/ProjectList.vue';
-console.log(data);
+import Education from './components/EducationList.vue';
 const projects = data.projects
-console.log(projects);
+const educations = data.education
 
 </script>
 
@@ -22,7 +22,7 @@ console.log(projects);
           <main class="flex flex-col gap-12 md:gap-20 mt-10">
             <About />
             <ProjectList :projects="projects" />
-            <Education />
+            <EducationList :educations="educations" />
             <Skills />
             <Contact />
           </main>

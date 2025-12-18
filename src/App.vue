@@ -7,7 +7,6 @@ import Skills from './components/Skills.vue';
 import Footer from './components/Footer.vue';
 import data from './data.json'
 import ProjectList from './components/ProjectList.vue';
-import Education from './components/EducationList.vue';
 const projects = data.projects
 const educations = data.education
 

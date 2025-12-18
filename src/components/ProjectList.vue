@@ -6,7 +6,7 @@ defineProps({
 </script>
 
 <template>
-    <section id="projects" >
+    <section id="projects">
         <h2 class="col-span-3 text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
             Proyectos</h2>
         <div v-for="project in projects">

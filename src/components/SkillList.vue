@@ -10,11 +10,14 @@ import SkillItem from './SkillItem.vue';
             <p class="text-slate-500">The tools and technologies I use to bring ideas to life.</p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
-            <SkillItem />
-            <SkillItem />
-            <SkillItem />
-            <SkillItem />
-            <SkillItem />
+            <SkillItem skill="HTML" />
+            <SkillItem skill="CSS" />
+            <SkillItem skill="JavaScript" />
+            <SkillItem skill="TailwindCSS" />
+            <SkillItem skill="Vite" />
+            <SkillItem skill="Vue" />
+            <SkillItem skill="Git" />
+            <SkillItem skill="Security" />
         </div>
     </section>
 </template>

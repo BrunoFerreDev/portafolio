@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import { IconSchool } from '@tabler/icons-vue';
-
+const props = defineProps({
+    education: {
+        type: Object,
+        required: true
+    }
+})
 </script>
 
 <template>
@@ -9,11 +14,10 @@ import { IconSchool } from '@tabler/icons-vue';
             <IconSchool />
         </div>
         <div>
-            <span class="text-xs font-bold text-primary uppercase">2016 - 2020</span>
-            <h3 class="text-xl font-bold mt-1">B.Sc. in Computer Science</h3>
-            <p class="text-slate-500 text-sm">University of Technology</p>
-            <p class="mt-2 text-slate-600 dark:text-slate-400 text-sm">Focused on Distributed Systems and
-                Network Security.</p>
+            <span class="text-xs font-bold text-primary uppercase">{{ education.year }}</span>
+            <h3 class="text-xl font-bold mt-1">{{ education.title }}</h3>
+            <p class="text-slate-500 text-sm">{{ education.institution }}</p>
+            <p class="mt-2 text-slate-600 dark:text-slate-400 text-sm">{{ education.description }}</p>
         </div>
     </div>
 </template>

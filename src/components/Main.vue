@@ -14,13 +14,10 @@ import HeroSection from './HeroSection.vue';
 <template>
     <main class="max-w-7xl mx-auto px-6">
         <!-- Hero Section -->
-       <HeroSection/>
+        <HeroSection />
         <!-- About Section -->
         <About />
         <!-- Skills Section -->
-        <SkillList />
-        <!-- Courses & Education -->
-        <EducationList />
         <!-- Projects Section -->
         <section class="py-20 border-t border-slate-200 dark:border-slate-800" id="projects">
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
@@ -41,6 +38,10 @@ import HeroSection from './HeroSection.vue';
             </div>
             <ProjectList />
         </section>
+
+        <!-- Courses & Education -->
+        <EducationList />
+        <SkillList />
         <!-- Contact Section -->
         <FormContact />
     </main>

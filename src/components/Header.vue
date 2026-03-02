@@ -16,8 +16,9 @@ import { IconFileCv } from '@tabler/icons-vue';
             </div>
             <div class="hidden md:flex items-center gap-8">
                 <a class="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
-                <a class="text-sm font-medium hover:text-primary transition-colors" href="#skills">Skills</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors" href="#projects">Projects</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#education">Education</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#skills">Skills</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
                 <button
                     class="bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-all flex items-center gap-2">

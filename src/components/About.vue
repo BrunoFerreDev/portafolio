@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { IconExternalLink } from '@tabler/icons-vue';
+import { IconChevronCompactUp } from '@tabler/icons-vue';
+
+</script>
+
 <template>
     <section class="py-20 border-t border-slate-200 dark:border-slate-800" id="about">
         <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -11,10 +17,10 @@
             <div class="space-y-6">
                 <h2 class="text-3xl font-bold">About Me</h2>
                 <p class="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
-                    With over 5 years of experience in the Java ecosystem, I have transitioned from building
-                    monolithic desktop applications to architecting complex, cloud-native microservices. My passion
-                    lies in solving the "impossible" problems of distributed computing: eventual consistency, high
-                    availability, and zero-downtime deployments.
+                    With over 2 years of experience in the Java ecosystem, I have transitioned from building monolithic
+                    desktop applications to architecting complex, cloud-native microservices. My passion lies in solving
+                    the "impossible" problems of distributed computing: eventual consistency, high availability, and
+                    zero-downtime deployments.
                 </p>
                 <p class="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
                     I believe in clean code, test-driven development, and the power of automation. When I'm not
@@ -24,17 +30,23 @@
                 <div class="grid grid-cols-2 gap-6 pt-4">
                     <div
                         class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
-                        <h4 class="text-primary font-bold text-2xl">50+</h4>
-                        <p class="text-sm text-slate-500">Microservices Built</p>
+                        <h4 class="text-primary font-bold text-2xl">Instagram</h4>
+                        <a href="https://www.instagram.com/brunomarcos.dev/" target="_blank"
+                            class="text-sm text-slate-500 inline-flex items-center gap-2">@brunomarcos.dev
+                            <IconExternalLink />
+                        </a>
                     </div>
                     <div
                         class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
-                        <h4 class="text-primary font-bold text-2xl">99.9%</h4>
-                        <p class="text-sm text-slate-500">System Uptime</p>
+                        <h4 class="text-primary font-bold text-2xl">LinkedIn</h4>
+                        <a href="https://www.linkedin.com/in/brunomarcosferreira/" target="_blank"
+                            class="text-sm text-slate-500 inline-flex items-center gap-2">Bruno Ferreira
+                            <IconExternalLink />
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
 </template>

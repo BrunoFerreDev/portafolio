@@ -12,7 +12,7 @@ import { IconLocation } from '@tabler/icons-vue';
             <div class="space-y-8">
                 <h2 class="text-3xl font-bold">Let's Connect</h2>
                 <p class="text-slate-600 dark:text-slate-400 text-lg">
-                    I'm currently open to freelance opportunities and full-time senior backend roles. If you have a
+                    I'm currently open to freelance opportunities and full-time. If you have a
                     project that needs robust architecture, let's talk.
                 </p>
                 <div class="space-y-4">
@@ -22,7 +22,7 @@ import { IconLocation } from '@tabler/icons-vue';
                         </div>
                         <div>
                             <p class="text-sm text-slate-500">Email</p>
-                            <p class="font-bold">hello@johndoe.dev</p>
+                            <p class="font-bold">fbrunomarcos@gmail.com</p>
                         </div>
                     </div>
                     <div class="flex items-center gap-4">
@@ -31,7 +31,7 @@ import { IconLocation } from '@tabler/icons-vue';
                         </div>
                         <div>
                             <p class="text-sm text-slate-500">Location</p>
-                            <p class="font-bold">San Francisco, CA (Remote Friendly)</p>
+                            <p class="font-bold">Misiones, Argentina (Remote Friendly)</p>
                         </div>
                     </div>
                 </div>
@@ -53,13 +53,13 @@ import { IconLocation } from '@tabler/icons-vue';
                         <label class="text-sm font-medium">Full Name</label>
                         <input
                             class="w-full bg-white dark:bg-backgroundDark border-slate-200 dark:border-slate-800 rounded-lg focus:ring-primary focus:border-primary "
-                            placeholder="John Wick" type="text" />
+                            placeholder="Your Name" type="text" />
                     </div>
                     <div class="space-y-2">
                         <label class="text-sm font-medium">Email Address</label>
                         <input
                             class="w-full bg-white dark:bg-backgroundDark border-slate-200 dark:border-slate-800 rounded-lg focus:ring-primary focus:border-primary"
-                            placeholder="john@example.com" type="email" />
+                            placeholder="Your Email" type="email" />
                     </div>
                 </div>
                 <div class="space-y-2">

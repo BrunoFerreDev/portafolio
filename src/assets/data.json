@@ -1,0 +1,176 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Admin League System",
+      "description": "Admin League System is a web application for managing sports leagues, featuring league management, team management, and player management.",
+      "images": [
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772536533/Captura_desde_2026-03-03_08-07-56_itr7do.png",
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772536535/Captura_desde_2026-03-03_08-10-24_wvckag.png",
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772536533/Captura_desde_2026-03-03_08-10-32_holppp.png",
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772536534/Captura_desde_2026-03-03_08-11-31_tcdf8r.png",
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772536533/Captura_desde_2026-03-03_08-12-22_q9hq3t.png"
+      ],
+      "link": "#",
+      "technologies": [
+        "Vue.js",
+        "Tailwind CSS",
+        "Vite",
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Spring Security"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Referee Panel",
+      "description": "Referee Panel is a web application for managing sports leagues, featuring league management, team management, and player management.",
+      "link": "#",
+      "technologies": [
+        "Vue.js",
+        "Tailwind CSS",
+        "Vite",
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Spring Security"
+      ],
+      "images": [
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772536974/Captura_desde_2026-03-03_08-21-57_ftrdzr.png",
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772536974/Captura_desde_2026-03-03_08-22-14_nw5ls2.png",
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772536974/Captura_desde_2026-03-03_08-22-18_nqt87s.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "University Management System",
+      "description": "University Management System is a web application for managing university students, courses, and grades.",
+      "images": [],
+      "link": "#",
+      "technologies": [
+        "Vue.js",
+        "Tailwind CSS",
+        "Vite",
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Spring Security"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "MatOffe - Ecommerce",
+      "description": "E-commerce platform for coffe and mate products, featuring product catalog, shopping cart, and order management.",
+      "images": [
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772491640/matoffe_qymxsx.png"
+      ],
+      "link": "#",
+      "technologies": [
+        "Vue.js",
+        "Tailwind CSS",
+        "Pinia",
+        "Vite",
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Spring Security"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Home Banking ",
+      "description": "Home Banking platform for personal finance management, featuring account management, transaction history, and budget tracking.",
+      "images": [
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772491640/bank_jb4mxm.png"
+      ],
+      "link": "#",
+      "technologies": [
+        "Vue.js",
+        "Tailwind CSS",
+        "Vite",
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Spring Security"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "PetShop",
+      "description": "E-commerce platform for pet products, featuring product catalog, shopping cart, and order management.",
+      "images": [
+        "https://res.cloudinary.com/dqzhz18xh/image/upload/v1772491640/petshop_ays3k6.webp"
+      ],
+      "link": "#",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Vue.js"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "year": "2020 - 2025",
+      "title": "System Analyst",
+      "institution": "C.E.P N° 62 ",
+      "description": "Focused on Software Development and Database Management. This includes detailed design, construction (reusing existing elements or programming them entirely), verification, debugging, optimization, and maintenance."
+    },
+    {
+      "id": 2,
+      "year": "Jun 2023 - Oct 2023",
+      "title": "Full Stack Java Developer",
+      "institution": "MindHub",
+      "description": "Intensive program focused on building full-stack web applications using Java, Spring Boot, and modern frontend technologies. Covered object-oriented programming, database design, RESTful APIs, and agile methodologies."
+    },
+    {
+      "id": 3,
+      "year": "Mar 2024 - Aug 2024",
+      "title": "Microservices with Spring Cloud",
+      "institution": "TodoCodeAcademy",
+      "description": "Focused on building microservices using Spring Cloud. Covered topics such as service discovery, configuration management, and circuit breakers."
+    },
+    {
+      "id": 4,
+      "year": "Mar 2025 - Aug 2025",
+      "title": "Security with Spring Security",
+      "institution": "TodoCodeAcademy",
+      "description": "Specialized training in securing Java applications using Spring Security. Covered authentication and authorization mechanisms, JWT implementation, and OAuth2 protocols."
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "JavaScript",
+      "BootstrapCSS",
+      "TailwindCSS",
+      "Vite",
+      "Vue.js",
+      "Git"
+    ],
+    "backend": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Spring Cloud",
+      "JWT",
+      "OAuth2",
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "tools": [
+      "GitHub",
+      "Postman",
+      "IntelliJ IDEA",
+      "VS Code",
+      "Windsurf",
+      "Antigravity",
+      "Apache Netbeans",
+      "DBeaver",
+      "PgAdmin"
+    ]
+  },
+  "contact": {
+    "email": "[EMAIL_ADDRESS]",
+    "phone": "+1234567890",
+    "linkedin": "https://linkedin.com/in/username",
+    "github": "https://github.com/username"
+  }
+}

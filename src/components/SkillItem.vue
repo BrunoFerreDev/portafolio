@@ -1,9 +1,9 @@
 <template>
     <!-- Skill 1 -->
     <div
-        class="group p-6 rounded-2xl glass-card flex flex-col items-center gap-3 hover:border-primary/50 transition-all">
+        class="group p-4 rounded-2xl glass-card flex flex-col items-center gap-3 hover:border-primary/50 transition-all">
         <div
-            class="size-12 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+            class="size-8 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
             <IconBrandHtml5 v-if="skill === 'HTML'" />
             <IconBrandCss3 v-if="skill === 'CSS'" />
             <IconBrandJavascript v-if="skill === 'JavaScript'" />
@@ -13,7 +13,7 @@
             <IconBrandGithub v-if="skill === 'Git'" />
             <IconBrandVue v-if="skill === 'Vue'" />
         </div>
-        <span class="font-medium">{{ skill }}</span>
+        <span class="font-medium truncate">{{ skill }}</span>
     </div>
 </template>
 <script setup>

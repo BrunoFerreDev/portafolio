@@ -10,7 +10,7 @@ const props = defineProps({
 
 <template>
     <div class="flex gap-6 p-6 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
-        <div class="size-14 shrink-0 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
+        <div class="size-14 shrink-0 bg-primary/10 rounded-xl flex items-center justify-center text-primary hidden md:flex">
             <IconSchool />
         </div>
         <div>
